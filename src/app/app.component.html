@@ -1,0 +1,30 @@
+<div class="container" style="padding-top: 20px;">
+  <div class="card">
+    <div class="card-header">基本</div>
+    <div class="card-body">
+      <ngx-json-view [data]="data"></ngx-json-view>
+    </div>
+  </div>
+
+  <div class="card mt-3">
+    <div class="card-header">带展开参数</div>
+    <div class="card-body">
+      <ngx-json-view [data]="data" [levelOpen]="0"></ngx-json-view>
+    </div>
+  </div>
+
+  <div class="card mt-3">
+    <div class="card-header">在线测试</div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-6">
+          <textarea class="form-control" rows="15" [ngModel]="customData"
+            (ngModelChange)="textareaModelChange($event)"></textarea>
+        </div>
+        <div class="col-md-6">
+          <ngx-json-view [data]="customJson"></ngx-json-view>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

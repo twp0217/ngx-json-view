@@ -4,20 +4,20 @@ A JSON View component for Angular 2+ (基于angular 2+ 的JSON展示组件)
 ## 安装
 
 ```
-npm install ngx-json-view --save
+npm install @twp0217/ngx-json-view --save
 ```
 
 ## 使用
-- 安装依赖包：`ngx-json-view`
+- 安装依赖包：`@twp0217/ngx-json-view`
 
 ```
-npm install ngx-json-view --save
+npm install @twp0217/ngx-json-view --save
 ```
 
 - 在module导入`NgxJsonViewModule`
 
 ```
-import { NgxJsonViewModule } from 'ngx-json-view';
+import { NgxJsonViewModule } from '@twp0217/ngx-json-view';
 
 @NgModule({
   declarations: [
@@ -37,7 +37,7 @@ export class AppModule { }
 - 准备JSON数据
 
 ```
-data = {
+data: { [key: string]: any } = {
   "name": "twp0217",
   "url": "https://github.com/twp0217",
   "string": "github",
@@ -69,8 +69,8 @@ data = {
 ```
 
 # 文档
-- `data` - `Object` - 数据
-- `levelOpen` - `number` - 初始化展开层数(初始值：0)
+- `data` - `{ [key: string]: any }` - 数据
+- `levelOpen` - `number` - 初始化展开层数
 
 # 支持
 

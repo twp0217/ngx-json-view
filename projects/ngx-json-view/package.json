@@ -1,0 +1,29 @@
+{
+  "name": "@twp0217/ngx-json-view",
+  "version": "0.0.0",
+  "description": "A JSON View component for Angular 2+",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twp0217/ngx-json-view.git"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "angular4",
+    "ng",
+    "ng2",
+    "json-view",
+    "ngx-json-view"
+  ],
+  "author": "tu.wenpan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twp0217/ngx-json-view/issues"
+  },
+  "homepage": "https://github.com/twp0217/ngx-json-view#readme",
+  "peerDependencies": {
+    "@angular/common": "^7.2.0",
+    "@angular/core": "^7.2.0"
+  }
+}
